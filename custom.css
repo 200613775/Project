@@ -86,7 +86,7 @@ header {
   nav a {
     color: rgb(34, 32, 32);
     padding: 1rem 0.7rem;
-    border-radius: 2px;
+    border-radius: 1.5px;
     margin: auto;
     text-shadow: none;
   }
@@ -108,8 +108,8 @@ header {
   
     .container {
       display: grid;
-      grid-template-columns: 2fr 4fr;
-      gap: 1.5rem;
+      grid-template-columns: 1fr 2fr;
+      gap: 1rem;
     }
   }
 
@@ -119,3 +119,25 @@ header {
     padding: 1rem;
     margin-top: auto;
   }
+
+  .container {
+    max-width: 860px;
+    margin: auto;
+    padding: auto;
+  }
+
+  /* do styling for the footer and aside */
+.page-footer {
+    background-color: #9c9d9d;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 1rem;
+  }
+  
+  .page-footer a {
+    color: #000000;
+    padding: auto;
+    margin: auto;
+  }
+  
