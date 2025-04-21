@@ -1,4 +1,8 @@
 @charset "UTF-8";
+
+/*  imported fonts */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 *,
 *::before,
 *::after {
@@ -9,11 +13,29 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: #ddd8d8;
     color: #141313;
     line-height: 1.2;
     font-size: 20px;
     margin: 0;
     padding: 0;
+  }
+
+/* add a margin, color text-decoration  */
+h1, h2, h3, h4 {
+    margin-bottom: 0.2em;
+    color: #000000;
+    padding: 0;
+  }
+  
+  a {
+    color: #5321dc;
+    text-decoration: none;
+    text-transform: none;
+    padding: auto;
+  }
+  
+  a:hover {
+    text-decoration: underline;
   }
