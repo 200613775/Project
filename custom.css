@@ -112,3 +112,10 @@ header {
       gap: 1.5rem;
     }
   }
+
+  /* do styling for the main content */
+  main {
+    background-color: #dbdbdb;
+    padding: 1rem;
+    margin-top: auto;
+  }
