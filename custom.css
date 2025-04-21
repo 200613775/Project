@@ -33,7 +33,7 @@ h1, h2, h3, h4 {
     color: #5321dc;
     text-decoration: none;
     text-transform: none;
-    padding: auto;
+    padding: 0;
   }
   
   a:hover {
@@ -53,7 +53,7 @@ header {
   header h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
-    padding: auto;
+    padding: 0;
   }
   
   header h2 {
@@ -80,14 +80,14 @@ header {
   /* do some styling to display well and add styling for the link to change the color when it's visited */
   nav li {
     margin: 1rem 0rem;
-    padding: auto;
+    padding: 0;
   }
   
   nav a {
     color: rgb(34, 32, 32);
     padding: 1rem 0.7rem;
     border-radius: 1.5px;
-    margin: auto;
+    margin:auto;
     text-shadow: none;
   }
   
@@ -117,13 +117,13 @@ header {
   main {
     background-color: #dbdbdb;
     padding: 1rem;
-    margin-top: auto;
+    margin-top:auto;
   }
 
   .container {
     max-width: 860px;
     margin: auto;
-    padding: auto;
+    padding: 0;
   }
 
   /* do styling for the footer and aside */
@@ -137,7 +137,7 @@ header {
   
   .page-footer a {
     color: #000000;
-    padding: auto;
-    margin: auto;
+    padding: 0;
+    margin: 0;
   }
   
