@@ -1,0 +1,19 @@
+@charset "UTF-8";
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ddd8d8;
+    color: #141313;
+    line-height: 1.2;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+  }
