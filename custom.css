@@ -61,4 +61,19 @@ header {
     font-style: normal;
     text-align: center;
   }
+
+  /* add font-size, back-ground color, and do more styling for the nav */
+  nav {
+    background-color: #88939d;
+    font-size: 1.5rem;
+  }
+  
+  nav ul {
+    display:flex;
+    flex-wrap:nowrap;
+    text-align: center;
+    list-style: none;
+    padding: 1rem;
+    justify-content: center;
+  }
   
