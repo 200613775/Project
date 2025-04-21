@@ -98,3 +98,17 @@ header {
   nav a:visited {
     color: #acd0da;
   }
+
+  /* do styling for the media query */
+  @media (min-width: 768px) {
+    nav ul {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .container {
+      display: grid;
+      grid-template-columns: 2fr 4fr;
+      gap: 1.5rem;
+    }
+  }
