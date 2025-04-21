@@ -39,3 +39,26 @@ h1, h2, h3, h4 {
   a:hover {
     text-decoration: underline;
   }
+
+  /* Do some styling for the header */
+header {
+    background-color: #acd0da;
+    color: black;
+    text-align: center;
+    padding: 1.5rem 2rem;
+    margin: 1rem;
+  }
+  
+  /*  do some styling for h1 and h2 like font-size, margin, padding, color or anything else */
+  header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    padding: auto;
+  }
+  
+  header h2 {
+    font-size: 1.7rem;
+    font-style: normal;
+    text-align: center;
+  }
+  
