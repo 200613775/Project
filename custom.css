@@ -16,7 +16,7 @@ body {
     font-family: "Roboto", sans-serif;
     background-color: #ddd8d8;
     color: #141313;
-    line-height: 1.2;
+    line-height: 1.6;
     font-size: 20px;
     margin: 0;
     padding: 0;
@@ -76,4 +76,25 @@ header {
     padding: 1rem;
     justify-content: center;
   }
+
+  /* do some styling to display well and add styling for the link to change the color when it's visited */
+  nav li {
+    margin: 1rem 0rem;
+    padding: auto;
+  }
   
+  nav a {
+    color: rgb(34, 32, 32);
+    padding: 1rem 0.7rem;
+    border-radius: 2px;
+    margin: auto;
+    text-shadow: none;
+  }
+  
+  nav a:hover {
+    background-color: rgba(170, 192, 205, 0.2);
+  }
+  
+  nav a:visited {
+    color: #acd0da;
+  }
