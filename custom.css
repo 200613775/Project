@@ -102,14 +102,13 @@ header {
   /* do styling for the media query */
   @media (min-width: 768px) {
     nav ul {
-      flex-direction: row;
-      justify-content: space-between;
+      flex-direction:inherit; 
+      justify-content: center;
+    
     }
   
     .container {
-      display: grid;
-      grid-template-columns: 1fr 2fr;
-      gap: 1rem;
+       gap: 1rem;
     }
   }
 
