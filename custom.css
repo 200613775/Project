@@ -20,6 +20,10 @@ body {
     font-size: 20px;
     margin: 0;
     padding: 0;
+    background-image: url('backgroundimg.jpg');
+  background-size: cover;           
+  background-position: center;      
+  background-repeat: no-repeat;
   }
 
 /* add a margin, color text-decoration  */
@@ -27,6 +31,7 @@ h1, h2, h3, h4 {
     margin-bottom: 0.2em;
     color: #000000;
     padding: 0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
   }
   
   a {
@@ -45,8 +50,8 @@ header {
     background-color: #acd0da;
     color: black;
     text-align: center;
-    padding: 1.5rem 2rem;
-    margin: 1rem;
+    padding: 2rem 2rem;
+    margin: 3rem;
   }
   
   /*  do some styling for h1 and h2 like font-size, margin, padding, color or anything else */
@@ -66,6 +71,8 @@ header {
   nav {
     background-color: #88939d;
     font-size: 1.5rem;
+    text-transform: capitalize;
+    text-transform: uppercase;
   }
   
   nav ul {
@@ -131,7 +138,7 @@ header {
     color: white;
     text-align: center;
     padding: 2rem 1rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   
   .page-footer a {
